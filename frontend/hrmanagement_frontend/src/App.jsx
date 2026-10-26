@@ -11,7 +11,7 @@ import Contact from './pages/Contact'
 import { Routes, Route } from 'react-router-dom'
 import AdminLogin from './pages/AdminLogin'
 import AdminHome from './pages/AdminHome'
-
+import Register from './pages/Register'
 
 function App() {
 
@@ -25,6 +25,7 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/adminlogin' element={<AdminLogin></AdminLogin>}></Route>
         <Route path='/adminhome' element={<AdminHome></AdminHome>}></Route>
+        <Route path='/Register' element={<Register></Register>}></Route>
       </Routes>
       <Footer />
     </div>
