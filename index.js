@@ -8,7 +8,7 @@ app.use(cors());
 
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/hrmanagement")
+mongoose.connect("mongodb+srv://vikasboyalapally05_db_user:C9x0S7Itjze5pTAV@cluster0.hnj6hip.mongodb.net/hrmanagement")
 .then(()=>{
     console.log("connected to mongodb");
 }).catch((err)=>{
