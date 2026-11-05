@@ -3,7 +3,7 @@ let router=express.Router();
 let bcrypt=require('bcrypt');
 let {users}=require("../models/users");
 
-//localhost:3000/api/emp/register
+//https://simple-mern-app1-1.onrender.com/api/emp/register
 
 router.post("/register",async (req,res)=>{
     console.log(req.body);

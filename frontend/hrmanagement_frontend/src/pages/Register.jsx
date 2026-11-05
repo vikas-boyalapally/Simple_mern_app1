@@ -26,7 +26,7 @@ function Register() {
 
     try {
       const req = await fetch(
-        "http://localhost:3000/api/emp/register",
+        "http://https://simple-mern-app1-1.onrender.com/api/emp/register",
         {
           method: "POST",
           headers: {
